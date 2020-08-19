@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+.row-1{
+    padding: 10px 20px;
+    box-shadow: 3px 2px 12px #00000052;
+    
+}
+
+.logo-jee{
+    width: 200px;
+}
+
+.noti-main{
+    text-align: right;
+}
+
+.span-1{
+    margin-right: 60px;
+    cursor: pointer;
+}
+
+.span-2{
+    cursor: pointer;
+}
+
+.row-2{
+    height: 100vh;
+    /* background-color: blue; */
+}
+
+
+@media only screen and (max-width: 800px) {
+    .logo-jee{
+        width: 150px ;
+    }
+    .row-1{
+        padding:15px 0 0 0;  
+    }
+    .span-1 img,
+    .span-2 img{
+        width: 25px;
+        margin-top: -65px;
+    }
+
+    .span-1{
+        margin-right: 20px;
+    }
+    
+
+  }
+
