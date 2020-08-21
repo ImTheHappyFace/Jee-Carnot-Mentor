@@ -9,7 +9,6 @@
 
 .row-1{
     padding: 10px 0px;
-    box-shadow: 3px 2px 12px #00000052;
     
 }
 
@@ -32,7 +31,8 @@
 }
 
 .row-2{
-    height: 95vh;
+    /* height: 95vh; */
+    padding-top: 15px;
     /* background-color: blue; */
 }
 
@@ -48,6 +48,7 @@
     list-style: none;
     padding: 10px 15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 0.3s all;
 }
 
 .menu-list:hover{
@@ -57,21 +58,30 @@
 }
 
 .heading-mentee{
-    padding: 40px 30px 0 0;
+    padding: 40px 30px 0 40px;
     color: #0a216f;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 
-.main-cards{
+.main-content-cards{
+    padding: 10px 0px;
+}
+/* .main-cards{
     margin-left: 120px;
     height: 20vh;
     background-color: rgb(255 255 255);
     border-radius: 20px;
+} */
+
+.row-card{
+    background-color: white;
+    padding: 5px ;
+    border-radius: 20px;
 }
 
 .img-card{
-    width: 130px;
+    width: 120px;
     padding: 20px 0 0 10px;
 }
 
@@ -96,6 +106,19 @@
     .span-1{
         margin-right: 20px;
     }
+    .side-space{
+        display: none;
+    }
+    .main-cards{
+        text-align: center;
+    }
+    .main-content-cards{
+        padding: 10px 50px;
+    }
+    .mentor-menu{
+        padding: 10px 0px;
+    }
+
     
 
   }
