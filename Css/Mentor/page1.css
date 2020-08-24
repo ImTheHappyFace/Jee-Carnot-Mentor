@@ -67,12 +67,7 @@
 .main-content-cards{
     padding: 10px 0px;
 }
-/* .main-cards{
-    margin-left: 120px;
-    height: 20vh;
-    background-color: rgb(255 255 255);
-    border-radius: 20px;
-} */
+
 
 .row-card{
     background-color: white;
@@ -88,6 +83,17 @@
 .list-cards {
     list-style: none;
 }
+
+/* Page 36 */
+.img-card-page36{
+    width: 70px;
+    padding: 10px 0 0 0px;
+}
+
+
+
+
+
 
 
 @media only screen and (max-width: 800px) {
